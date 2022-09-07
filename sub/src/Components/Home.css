@@ -24,12 +24,14 @@
   justify-content: center;
   
 }
-.navbar-right-section div:nth-of-type(5) p {
+.navbar-right-section div:nth-of-type(5) a {
+  text-decoration: none;
   margin-left: 10px;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -0.015em;
+  color: #000;
 }
 .login-signup {
   display: flex;

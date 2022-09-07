@@ -26,7 +26,8 @@ const NavbarHome = () => {
               </div>
               <div>
                   <img src="/Images/profile.png" alt="profile" />
-                  <p>Login / Signup</p>
+                  <a href="google.com">Login / Signup</a>
+                  {/* <p>Login / Signup</p> */}
                 </div>
             </div>
           </div>
