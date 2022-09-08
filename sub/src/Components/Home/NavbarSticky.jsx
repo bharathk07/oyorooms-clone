@@ -15,6 +15,10 @@ const NavbarSticky =()=> {
   console.log(date);
   let roomRef = useRef();
 
+  const handleLinkClick = () => {
+    history.push("/hotels");
+  };
+
   useEffect(() => {
     let handler = (event) => {
       if (roomRef.current && !roomRef.current.contains(event.target)) {
@@ -52,63 +56,10 @@ const NavbarSticky =()=> {
             minDate={new Date(1900, 0, 1)}
             maxDate={new Date(2100, 0, 1)}
           />
-          <div className="rooms" onClick={handleRoomDIv}>
-            <p>1 Room, 1 Guest</p>
-            {rooms ? (
-              <div className="roomsDiv" ref={roomRef}>
-                <div>
-                  <p>Rooms</p>
-                  <p>Guest</p>
-                </div>
-                <div>
-                  <p>
-                    Rooms <span style={{ fontWeight: "bold" }}>{roomsNum}</span>
-                  </p>
-                  <div className="room-counter">
-                    <button
-                      onClick={() => {
-                        setroomCounter((prev) => prev - 1);
-                      }}
-                    >
-                      -
-                    </button>
-                    <p>{roomCounter}</p>
-                    <button
-                      onClick={() => {
-                        setroomCounter((prev) => prev + 1);
-                      }}
-                    >
-                      +
-                    </button>
-                  </div>
-                </div>
-                <div>
-                  <button
-                    onClick={() => {
-                      setroomsNum((prev) => prev - 1);
-                    }}
-                  >
-                    Delete room
-                  </button>
-                  <button
-                    onClick={() => {
-                      setroomsNum((prev) => prev + 1);
-                    }}
-                  >
-                    Add room
-                  </button>
-                </div>
-              </div>
-            ) : null}
+          <div className="rooms">
+          <button onClick={handleLinkClick} style={{ width: "130px", height: "48px" }}>Search</button>
           </div>
-          <button style={{ width: "130px", height: "48px" }}>Search</button>
-        </div>
-        <div className="En">
-          <img src="/general-Icons/LanguageShort.svg" alt="En" />
-        </div>
-        <div className="login-sticky">
-          <img src="/Images/profile.png" alt="profile" />
-          <p>Login / Signup</p>
+          
         </div>
       </header>
     </>
