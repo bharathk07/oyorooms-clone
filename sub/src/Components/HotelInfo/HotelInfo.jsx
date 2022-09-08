@@ -233,18 +233,6 @@ export const HotelInfo = ({ key, data }) => {
                 style={{ width: "auto", height: "30px" }}
               />
             </div>
-            {/* <TagDiv>
-              <Button
-                variant="outlined"
-                style={{
-                  color: "#424242",
-                  borderColor: "#424242",
-                  height: "70%",
-                }}
-              >
-                Outlined
-              </Button>
-            </TagDiv> */}
 
             <BottomDiv>
               <div style={{ alignSelf: "flex-end" }}>

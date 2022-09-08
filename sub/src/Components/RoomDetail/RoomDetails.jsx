@@ -8,7 +8,6 @@ import styled from "styled-components";
 import NavbarSticky from "../Home/NavbarSticky";
 import { FooterTwo } from "../FooterTwo";
 
-// import {Icons} from ".../public/Icons"
 const Div = styled.div`
   & header > img {
     padding: 20px;

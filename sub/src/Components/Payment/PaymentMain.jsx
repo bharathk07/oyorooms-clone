@@ -4,7 +4,6 @@ import { PaymentCompleteClosed } from "./PaymentCompleteClosed";
 import { PaymentSide } from "./PaymentSide";
 import { PaymentCompleteOpen } from "./PaymentCompleteOpen";
 import { PaymentInpDetail } from "./PaymentInpDetail";
-
 import { useState, useEffect } from "react";
 import { hotels } from "../db";
 import { useParams, useHistory } from "react-router-dom";
