@@ -54,7 +54,6 @@ export const HotelOptions = () => {
           height: "70px",
         }}
       >
-
         <NavbarSticky />
       </Div>
       <div style={{ position: "absolute", marginTop: "75px" }}>

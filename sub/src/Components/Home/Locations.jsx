@@ -5,6 +5,60 @@ const Locations =() => {
     <div className="locations">
       <div>
         <LocationDetail
+          name="Bangalore"
+          more={[
+            "Popular Localities",
+            "Koramangala",
+            "Majestic",
+            "Madiwala",
+            "Marathahalli",
+            "Hsr Layout",
+            "Indiranagar",
+            "Kempegowda International Airport",
+            "Whitefield",
+            "Jp Nagar",
+            "Jayanagar",
+          ]}
+        />
+      </div>
+      <div>
+        <LocationDetail
+          name="Chennai"
+          more={[
+            "Popular Localities",
+            "Mount Road",
+            "Chennai Central Railway Station",
+            "Ecr East Coast Road",
+            "T Nagar",
+            "Anna Nagar",
+            "Velachery",
+            "Chennai International Airport",
+            "Koyambedu",
+            "Guindy",
+            "Tambaram",
+          ]}
+        />
+      </div>
+      <div>
+        <LocationDetail
+          name="Hyderabad"
+          more={[
+            "Popular Localities",
+            "Secunderabad  Railway Station",
+            "Gachibowli ",
+            "Madhapur",
+            "LB Nagar",
+            "Kukatpally",
+            "Ameerpet",
+            "Hitech City",
+            "Kondapur",
+            "Begumpet",
+            "Banjara Hills",
+          ]}
+        />
+      </div>
+      <div>
+        <LocationDetail
           name="Goa"
           more={[
             "Popular Localities",
@@ -55,60 +109,9 @@ const Locations =() => {
           ]}
         />
       </div>
-      <div>
-        <LocationDetail
-          name="Bangalore"
-          more={[
-            "Popular Localities",
-            "Koramangala",
-            "Majestic",
-            "Madiwala",
-            "Marathahalli",
-            "Hsr Layout",
-            "Indiranagar",
-            "Kempegowda International Airport",
-            "Whitefield",
-            "Jp Nagar",
-            "Jayanagar",
-          ]}
-        />
-      </div>
-      <div>
-        <LocationDetail
-          name="Hyderabad"
-          more={[
-            "Popular Localities",
-            "Secunderabad  Railway Station",
-            "Gachibowli ",
-            "Madhapur",
-            "LB Nagar",
-            "Kukatpally",
-            "Ameerpet",
-            "Hitech City",
-            "Kondapur",
-            "Begumpet",
-            "Banjara Hills",
-          ]}
-        />
-      </div>
-      <div>
-        <LocationDetail
-          name="Chennai"
-          more={[
-            "Popular Localities",
-            "Mount Road",
-            "Chennai Central Railway Station",
-            "Ecr East Coast Road",
-            "T Nagar",
-            "Anna Nagar",
-            "Velachery",
-            "Chennai International Airport",
-            "Koyambedu",
-            "Guindy",
-            "Tambaram",
-          ]}
-        />
-      </div>
+      
+      
+      
       <div>
         <LocationDetail
           name="Gurgaon"
